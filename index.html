@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Para minha princesa ❤️</title>
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div>
+<!-- FUNDO ESPACIAL -->
+<canvas id="space"></canvas>
+
+<!-- TELA INICIAL -->
+<section id="intro" class="intro">
+
+    <div class="intro-content">
+
+        <h1>Para minha princesa ✨</h1>
+
+        <p class="intro-text">
+    Mor,
+    <br><br>
+    Existe um universo inteiro de estrelas.
+    <br><br>
+    Mas nenhuma delas conta a nossa história.
+    <br><br>
+    Então eu resolvi criar o nosso universo. ❤️
+</p>
+
+        <div class="relationship-box">
+
+    <div class="since">
+    ❤️ Ruan & Duda ❤️
+    <br>
+    Juntos desde 14 de dezembro de 2025
+</div>
+
+            <div id="counter"></div>
+
+        </div>
+
+        <button id="startBtn">
+            Iniciar nossa viagem 🚀
+        </button>
+
+    </div>
+
+</section>
+
+<!-- TELA DESTINO -->
+<section id="destinationScreen" class="destinationScreen hidden">
+
+    <div class="destinationCard">
+
+        <h2>✨ Destino encontrado ✨</h2>
+
+        <p>Duda ❤️</p>
+
+    </div>
+
+</section>
+
+<!-- MEMÓRIAS -->
+<section id="memorySection" class="memorySection hidden">
+
+   <div class="memoryCard">
+
+    <div class="memoryLayout">
+
+        <div class="memoryPhoto">
+
+            <img
+                id="memoryImage"
+                src=""
+                alt="Nossa memória">
+
+        </div>
+
+        <div class="memoryInfo">
+
+            <h2 id="memoryTitle"></h2>
+
+            <p id="memoryText"></p>
+
+            <div class="progressContainer">
+                <div id="memoryBar"></div>
+            </div>
+
+            <div id="memoryProgress"></div>
+
+            <div class="memoryButtons">
+
+                <button id="prevMemory" style="display:none;">
+                    ← Voltar
+                </button>
+
+                <button id="nextMemory">
+                    Próxima →
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+</section>
+<!-- TELA FINAL -->
+<section id="finalScreen" class="finalScreen hidden">
+
+    <div class="finalCard">
+
+        <h2>Uma perguntinha...</h2>
+
+        <p>
+            Quer continuar namorando comigo?
+        </p>
+
+        <div class="buttons">
+
+            <button id="yesBtn" class="yesBtn">
+                SIM ❤️
+            </button>
+
+            <button id="noBtn" class="noBtn">
+                NÃO 😒
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- MENSAGEM FINAL -->
+<section id="loveMessage" class="loveMessage hidden">
+
+    <div class="messageCard">
+
+        <div class="heart">
+            ❤️
+        </div>
+
+        <h2>Eu te amo muito muito muito muito muito muito muito muito muito muito muito muito</h2>
+
+        
+            Desde 14 de dezembro de 2025,
+            cada dia ao seu lado tornou
+            minha vida mais bonita.
+            <br><br>
+
+            Mor, obrigado por cada conversa,
+            cada abraço,
+            cada sorriso,
+            cada risada
+            e por me fazer feliz todos os dias.
+            <br><br>
+
+         <br><br>
+
+
+
+
+
+            <br><br>
+
+            Com amor,
+            <br>
+            Ruan ❤️
+        </p>
+
+    </div>
+
+</section>
+
+<!-- ÁUDIO -->
+<audio id="music" loop>
+
+    <source
+        src="music/coracao-radiante.mp3"
+        type="audio/mpeg">
+
+</audio>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
